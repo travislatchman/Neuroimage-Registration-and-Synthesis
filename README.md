@@ -20,11 +20,14 @@ All files can just be simply opened, and then ran. For the .sh script, you can e
 
 * `Residual_Neuro.ipynb` - the notebook where we developed and trained a 3D U-Net architecture with residual blocks. It was trained to for the purposes of sythesizing FA and ADC maps from structural T1w and T2w MRI images. 
 
-
+## Results  
+### U-Net images Patient 177
 ![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/cfccb70d-7908-44ca-b918-a4571f7eb39b)  
-  
+
+### U-Net + Location Attention images Patient 177  
 ![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/c34f9407-71ef-4923-ae4f-518df1fcc6fe)  
-  
+
+### U-Net + Residual images Patient 177  
 ![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/112a8879-2312-4294-bd1d-44b4c05ae3ae)  
   
 
