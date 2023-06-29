@@ -22,8 +22,7 @@ All files can just be simply opened, and then ran. For the .sh script, you can e
 
 
 ## Dataset (T1, T2, FA, and ADC images for 200 patients)
-
-![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/90b09d7d-40f2-480c-812d-872b99429846)  
+![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/90b09d7d-40f2-480c-812d-872b99429846)
 ![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/affa6efc-bbf2-4332-941a-bc0dcac02489)  
 
 
