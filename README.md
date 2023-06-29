@@ -5,9 +5,10 @@
 
 Synthesizing Fractional Anisotropy (FA) and Apparent Diffusion Coefficient (ADC) maps from T1-weighted (T1w) and T2-weighted (T2w)  MRI images is a complex task because these maps represent different types of information. T1w and T2w images primarily provide structural information about the brain, while FA and ADC maps, derived from Diffusion Tensor Imaging (DTI) data, provide information about the microstructural properties of tissues, specifically the diffusion of water molecules. However by employing deep learning algorithms and image synthesis techniques, we can learn a one-to-one image-to-image translation, where we can translate an image in one domain (T1w, andT2w) with other modalities.  
 
+Left: T1 and T2, Right: FA and ADC
 ![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/8d7be78b-3627-40dc-981c-11b6fdc62893)  
 
-Left: T1 and T2, Right: FA and ADC
+
 
 
 **Code :**  
