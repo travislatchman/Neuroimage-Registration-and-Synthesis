@@ -89,7 +89,9 @@ and MAE compared to the original U-Net, but it dramatically
 reduces the PSNR. If minimizing distortion is the top priority,
 then the U-Net + Residual model would be the best. However,
 if the focus is on a balance between structural similarity and
-error measures, the U-Net + Local might be preferable.
+error measures, the U-Net + Local might be preferable.  
+
+
 For ADC synthesis, U-Net has moderate performance. It has
 the second highest SSIM of 0.954, indicating good structural
 similarity between the synthesized images and the ground
