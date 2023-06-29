@@ -83,8 +83,7 @@ U-Net + Local models. The MSE is slightly higher at around
 approximately 0.077. The U-Net + Residual model achieves
 the highest PSNR, indicating the least amount of distortion, but
 it has the lowest SSIM, indicating lower structural similarity,
-and highest MAE, indicating greater absolute error. The U-Net
-+ Local model slightly improves the SSIM and reduces MSE
+and highest MAE, indicating greater absolute error. The U-Net Local model slightly improves the SSIM and reduces MSE
 and MAE compared to the original U-Net, but it dramatically
 reduces the PSNR. If minimizing distortion is the top priority,
 then the U-Net + Residual model would be the best. However,
