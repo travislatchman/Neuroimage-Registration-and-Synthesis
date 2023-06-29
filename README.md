@@ -53,7 +53,8 @@ Registered T2w, FA, and ADC images to T1w-space
 
 ![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/83e71c39-380a-4260-a5a7-87aec34a9e1c)
 
-![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/67e0d95f-aa76-4067-b603-c2d141aa5417)  
+![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/a59a3f37-9834-499a-b571-e5e7d880f2e2)
+ 
 
 
 # Results  
