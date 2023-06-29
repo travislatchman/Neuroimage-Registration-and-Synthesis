@@ -29,19 +29,17 @@ All files can just be simply opened, and then ran. For the .sh script, you can e
 
 ## Skull Stripping  
 ![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/fc323197-d9a3-4e13-872a-52b90c099fd4)  
-
 ![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/15f513fc-5dab-4077-b832-2a25b4a8f2de)  
 
 
 ## Registration
-
 ![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/b28c2005-639a-4460-87ad-719dab1cb1fa)  
+![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/22eb6124-6b09-472d-9e06-caf289c9049b)  
 
 
 ## Synthesis
 
 ![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/63154976-86a7-4cc9-85a9-27a80e184f22)  
-
 ![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/67e0d95f-aa76-4067-b603-c2d141aa5417)  
 
 
@@ -63,7 +61,6 @@ TABLE II: Comparison of ADC Synthesis - U-Net, U-Net + Local Attention, and U-Ne
 ![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/d2a82610-a022-4b29-b695-db029bccc8d9)  
 
 
-![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/83911edf-b1dc-4a24-8d8d-11096d662265)  
 
 
 
