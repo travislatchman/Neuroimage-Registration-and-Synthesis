@@ -32,8 +32,12 @@ All files can just be simply opened, and then ran. For the .sh script, you can e
 
 
 ## Registration
+
+Registered T2w, FA, and ADC images to T1w-space  
+
 ![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/b28c2005-639a-4460-87ad-719dab1cb1fa)
-![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/22eb6124-6b09-472d-9e06-caf289c9049b)
+![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/626d1e2c-7317-4911-8dc0-085ed88ec11b)
+
 
 
 ## Synthesis
