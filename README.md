@@ -3,7 +3,11 @@
 ### By Travis Latchman
 
 
-Synthesizing Fractional Anisotropy (FA) and Apparent Diffusion Coefficient (ADC) maps from T1-weighted (T1w) and T2-weighted (T2w)  MRI images is a complex task because these maps represent different types of information. T1w and T2w images primarily provide structural information about the brain, while FA and ADC maps, derived from Diffusion Tensor Imaging (DTI) data, provide information about the microstructural properties of tissues, specifically the diffusion of water molecules. However by employing deep learning algorithms and image synthesis techniques, we can learn a one-to-one image-to-image translation, where we can translate an image in one domain (T1w, andT2w) with other modalities.
+Synthesizing Fractional Anisotropy (FA) and Apparent Diffusion Coefficient (ADC) maps from T1-weighted (T1w) and T2-weighted (T2w)  MRI images is a complex task because these maps represent different types of information. T1w and T2w images primarily provide structural information about the brain, while FA and ADC maps, derived from Diffusion Tensor Imaging (DTI) data, provide information about the microstructural properties of tissues, specifically the diffusion of water molecules. However by employing deep learning algorithms and image synthesis techniques, we can learn a one-to-one image-to-image translation, where we can translate an image in one domain (T1w, andT2w) with other modalities.  
+
+![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/8d7be78b-3627-40dc-981c-11b6fdc62893)  
+
+
 
 
 **Code :**  
@@ -21,47 +25,58 @@ All files can just be simply opened, and then ran. For the .sh script, you can e
 * `Residual_Neuro.ipynb` - the notebook where we developed and trained a 3D U-Net architecture with residual blocks. It was trained to for the purposes of sythesizing FA and ADC maps from structural T1w and T2w MRI images.
 
 
-# Dataset (T1, T2, FA, and ADC images for 200 patients)
-![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/90b09d7d-40f2-480c-812d-872b99429846)
-![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/affa6efc-bbf2-4332-941a-bc0dcac02489)
+# Dataset "MedIA_Project2" -  (T1, T2, FA, and ADC images for 200 patients)  
+
+![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/37679dfb-d8d9-44dd-b7b7-61880b9774cf)  
+
+![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/25fc60b5-179e-4ae9-8bfc-4e3887998d54)  
+
+"MedIA_Project2_registered" serves as input for the models
 
 
-# Skull Stripping  
-![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/fc323197-d9a3-4e13-872a-52b90c099fd4)
-![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/15f513fc-5dab-4077-b832-2a25b4a8f2de)  
+# Skull Stripping (FSL) 
+![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/518e2563-f56e-42d2-8e64-1586d7c25bdf)
+
+![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/24c4d4c6-0746-42e9-ad83-1157ed294bd6)
 
 
-# Registration
+# Registration (ANTs Package)
 
 Registered T2w, FA, and ADC images to T1w-space  
 
-![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/b28c2005-639a-4460-87ad-719dab1cb1fa)
-![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/626d1e2c-7317-4911-8dc0-085ed88ec11b)
+![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/ba001c12-627c-42de-b2fe-5ef639866680)
 
+![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/47edac0b-3061-4dba-8a3b-4551070c8d6e)
 
 
 # Synthesis
 
-![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/63154976-86a7-4cc9-85a9-27a80e184f22)  
+![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/83e71c39-380a-4260-a5a7-87aec34a9e1c)
+
 ![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/67e0d95f-aa76-4067-b603-c2d141aa5417)  
 
 
 # Results  
 ### U-Net images Patient 177
-![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/cfccb70d-7908-44ca-b918-a4571f7eb39b)  
+![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/b4120637-dbf7-408a-83fb-912a4238bfd0)
+
 
 ### U-Net + Location Attention images Patient 177  
-![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/c34f9407-71ef-4923-ae4f-518df1fcc6fe)  
+![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/c59a16c7-5a35-4737-bf74-ccdf05466e03)
+ 
 
 ### U-Net + Residual images Patient 177  
-![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/112a8879-2312-4294-bd1d-44b4c05ae3ae)  
+![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/6e447acd-f095-4fa3-a9aa-5092a37cd986)
+
   
 
 TABLE I: Comparison of FA Synthesis - U-Net, U-Net + Local Attention, and U-Net + Residual Blocks
-![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/9f9a9811-907e-4f4b-abb5-43a6fc7a414f)
+![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/632399a9-f883-4ec3-a580-3f7dbab266f6)
+
 
 TABLE II: Comparison of ADC Synthesis - U-Net, U-Net + Local Attention, and U-Net + Residual Blocks
-![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/d2a82610-a022-4b29-b695-db029bccc8d9)  
+![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/be021db2-2aa2-4f5b-984c-15741a13f9d2)
+
 
 # Discussion and Conclusion
 
