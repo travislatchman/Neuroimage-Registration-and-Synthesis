@@ -18,7 +18,32 @@ All files can just be simply opened, and then ran. For the .sh script, you can e
   
 * `Attention_Neuro.ipynb` - the notebook where we developed and trained a 3D U-Net architecture with a local attention mechanism afer the bottleneck layer. It was trained to for the purposes of sythesizing FA and ADC maps from structural T1w and T2w MRI images. 
 
-* `Residual_Neuro.ipynb` - the notebook where we developed and trained a 3D U-Net architecture with residual blocks. It was trained to for the purposes of sythesizing FA and ADC maps from structural T1w and T2w MRI images. 
+* `Residual_Neuro.ipynb` - the notebook where we developed and trained a 3D U-Net architecture with residual blocks. It was trained to for the purposes of sythesizing FA and ADC maps from structural T1w and T2w MRI images.
+
+
+## Dataset (T1, T2, FA, and ADC images for 200 patients)
+
+![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/90b09d7d-40f2-480c-812d-872b99429846)  
+![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/affa6efc-bbf2-4332-941a-bc0dcac02489)  
+
+
+## Skull Stripping  
+![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/fc323197-d9a3-4e13-872a-52b90c099fd4)  
+
+![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/15f513fc-5dab-4077-b832-2a25b4a8f2de)  
+
+
+## Registration
+
+![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/b28c2005-639a-4460-87ad-719dab1cb1fa)  
+
+
+## Synthesis
+
+![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/63154976-86a7-4cc9-85a9-27a80e184f22)  
+
+![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/67e0d95f-aa76-4067-b603-c2d141aa5417)  
+
 
 ## Results  
 ### U-Net images Patient 177
@@ -35,5 +60,21 @@ TABLE I: Comparison of FA Synthesis - U-Net, U-Net + Local Attention, and U-Net 
 ![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/9f9a9811-907e-4f4b-abb5-43a6fc7a414f)
 
 TABLE II: Comparison of ADC Synthesis - U-Net, U-Net + Local Attention, and U-Net + Residual Blocks
-![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/d2a82610-a022-4b29-b695-db029bccc8d9)
+![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/d2a82610-a022-4b29-b695-db029bccc8d9)  
+
+
+![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/83911edf-b1dc-4a24-8d8d-11096d662265)  
+
+
+
+
+
+
+
+
+
+
+
+
+
 
