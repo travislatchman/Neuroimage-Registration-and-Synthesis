@@ -7,7 +7,7 @@ Synthesizing Fractional Anisotropy (FA) and Apparent Diffusion Coefficient (ADC)
 
 ![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/8d7be78b-3627-40dc-981c-11b6fdc62893)  
 
-
+Left: T1 and T2, Right: FA and ADC
 
 
 **Code :**  
