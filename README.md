@@ -21,17 +21,17 @@ All files can just be simply opened, and then ran. For the .sh script, you can e
 * `Residual_Neuro.ipynb` - the notebook where we developed and trained a 3D U-Net architecture with residual blocks. It was trained to for the purposes of sythesizing FA and ADC maps from structural T1w and T2w MRI images.
 
 
-## Dataset (T1, T2, FA, and ADC images for 200 patients)
+# Dataset (T1, T2, FA, and ADC images for 200 patients)
 ![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/90b09d7d-40f2-480c-812d-872b99429846)
 ![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/affa6efc-bbf2-4332-941a-bc0dcac02489)
 
 
-## Skull Stripping  
+# Skull Stripping  
 ![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/fc323197-d9a3-4e13-872a-52b90c099fd4)
 ![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/15f513fc-5dab-4077-b832-2a25b4a8f2de)  
 
 
-## Registration
+# Registration
 
 Registered T2w, FA, and ADC images to T1w-space  
 
@@ -40,13 +40,13 @@ Registered T2w, FA, and ADC images to T1w-space
 
 
 
-## Synthesis
+# Synthesis
 
 ![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/63154976-86a7-4cc9-85a9-27a80e184f22)  
 ![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/67e0d95f-aa76-4067-b603-c2d141aa5417)  
 
 
-## Results  
+# Results  
 ### U-Net images Patient 177
 ![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/cfccb70d-7908-44ca-b918-a4571f7eb39b)  
 
@@ -63,7 +63,7 @@ TABLE I: Comparison of FA Synthesis - U-Net, U-Net + Local Attention, and U-Net 
 TABLE II: Comparison of ADC Synthesis - U-Net, U-Net + Local Attention, and U-Net + Residual Blocks
 ![image](https://github.com/travislatchman/Neuroimage-Registration-and-Synthesis/assets/32372013/d2a82610-a022-4b29-b695-db029bccc8d9)  
 
-## Discussion and Conclusion
+# Discussion and Conclusion
 
 The experiment has shown that U-Net architectures, especially when combined with residual blocks or local attention mechanisms, can provide satisfactory results in the synthesis of FA images from multimodal MRI images. However, the varying performance metrics across the different models suggest that no single model excels in all areas, indicating that there might be room for further improvement or hybrid strategies. 
 
